@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'gentleman-800';
+	src: url(../fonts/gentleman-800-bold-webfont.woff),
+			 url(../fonts/gentleman-800-bold-webfont.woff2),
+	     url(../fonts/gentleman-800-bold-webfont.ttf);
+}
+
+@font-face {
+	font-family: 'gentleman-600';
+	src: url(../fonts/gentleman-600-regular-webfont.woff),
+			 url(../fonts/gentleman-600-regular-webfont.woff2),
+	     url(../fonts/gentleman-600-regular-webfont.ttf);
+}
+
+body, html {
+	font-family: 'gentleman-600';
+	height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  line-height: 4em;
+}
+
+p {
+  padding-bottom: 1em;
+  font-weight: 100;
+}

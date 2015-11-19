@@ -1,0 +1,88 @@
+/*
+ * general design for sections (fixed ones)
+ */
+section.fixed {
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+	position: relative;
+	z-index: 1;
+}
+section.fixed h1,section.fixed h2 {
+	bottom: auto;
+	color: white;
+	font-size: 2.875rem;
+	font-size: 30px;
+	font-weight: 300;
+	left: 50%;
+	max-width: 1170px;
+	moz-transform: translateX(-50%) translateY(-50%);
+	ms-transform: translateX(-50%) translateY(-50%);
+	o-transform: translateX(-50%) translateY(-50%);
+	position: absolute;
+	right: auto;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	webkit-transform: translateX(-50%) translateY(-50%);
+	width: 90%;
+}
+
+	/*
+	 * design for each fixed sections
+	 */
+  section.fixed.f1 {
+  	background-image: url("../images/f1.jpg");
+  }
+    section.fixed.f1 h2 {
+    	font-size: 15px;
+    	line-height: 25px;
+    	position: absolute;
+    	text-shadow: none;
+    	top: 40px;
+    }
+    section.fixed.f1 h1 {
+    	top: 75%;
+    }
+    section.fixed.f1 p {
+      text-align: center;
+    }
+
+  section.fixed.f2 {
+    background-image: url("../images/f1.jpg");
+  }
+
+/*
+ * general design for sections (scrolling ones)
+ */
+section.scrolling {
+	box-shadow: 0 0 50px rgba(0,0,0,0.5);
+	line-height: 1.6;
+	padding: 4em 0;
+	position: relative;
+	z-index: 2;
+}
+section .container {
+	margin: 0 auto;
+	max-width: 768px;
+	width: 90%;
+}
+section .container::after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+	/*
+	 * design for each scrolling sectiona
+	 */
+	section.scrolling.s2 img {
+		max-width: 100%;
+	}
+	section.scrolling.s3 {
+		background-color: #d52121;
+		color: #fff;
+	}
