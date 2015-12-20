@@ -1,0 +1,10 @@
+/* Small devices */
+@media (max-width: 768px)
+{
+    #scrollbar {
+      display: none;
+    }
+    * {
+      line-height: inherit !important;
+    }
+}
