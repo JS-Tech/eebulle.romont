@@ -4,3 +4,52 @@
 @import "sections.css";
 @import "responsive.css";
 @import "normalize.css";
+
+.activities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+  .activities .activity {
+      border-radius: 50%;
+      width: 210px;
+      height: 210px;
+      flex-flow: column;
+      padding: 20px;
+      text-align: center;
+      font-weight: 100;
+      position: relative;
+      transition: 0.5s;
+      border: 2px solid green;
+  }
+    .activities .activity .wrap {
+      position: absolute;
+      top: 50%;
+      bottom: auto;
+      left: 50%;
+      right: auto;
+      transform: translateX(-50%) translateY(-50%);
+    }
+      .activities .activity .wrap h3 {
+        padding: 0;
+        line-height: 35px;
+      }
+      .activities .activity .wrap p {
+        padding: 0;
+        line-height: 15px;
+      }
+      .activities .activity .wrap p:nth-child(2) {
+        font-weight: bold;
+        padding: 0 0 7px 0;
+        font-size: 1.1em;
+      }
+      .activities .activity .wrap p:nth-child(4) {
+        font-size: 0.8em;
+        padding: 4px 0 0 0;
+      }
+    .activities .activity:hover {
+      background: rgba(57, 255, 0, 0.23);
+      //color: #000;
+    }

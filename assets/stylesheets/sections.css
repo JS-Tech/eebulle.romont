@@ -4,19 +4,27 @@
  * design for each fixed sections
  */
 section.fixed.f1 {
-	background-image: url("../images/f1.jpg");
+	background-image: url("../images/bg/1.jpg");
 }
 
 section.fixed.f2 {
-  background-image: url("../images/f1.jpg");
+  background-image: url("../images/bg/2.jpeg");
+}
+
+section.fixed.f3 {
+  background-image: url("../images/bg/3.jpeg");
+}
+
+section.fixed.f4 {
+  background-image: url("../images/bg/4.jpeg");
 }
 
 
 /*
  * design for each scrolling sectiona
  */
-section.scrolling.s2 img {
-	max-width: 100%;
+section.scrolling.s2 h2 {
+	text-align: center;
 }
 section.scrolling.s3 {
 	background-color: #d52121;
