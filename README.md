@@ -1,2 +1,1 @@
-# eebulle.romont
-subdomain romont.eebulle.ch
+This was the website romont.eebulle.ch
